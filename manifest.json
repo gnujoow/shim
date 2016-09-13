@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "iinspiire",
+  "description": "random quote machine with random image",
+  "author": "gnujoow",
+  "homepage_url": "http://gnujoow.github.io",
+  "version" : "0.1",
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "128": "assets/icons/icon128.png"
+  }
+}
