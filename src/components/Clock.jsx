@@ -6,9 +6,9 @@ export default class Clock extends React.Component {
 
     const crnt = new Date();
     this.state = {
-      hour: crnt.getHours(),
-      min: crnt.getMinutes(),
-      sec: crnt.getSeconds(),
+      hour: this.getVal(crnt.getHours()),
+      min: this.getVal(crnt.getMinutes()),
+      sec: this.getVal(crnt.getSeconds()),
     };
   }
 
@@ -22,12 +22,19 @@ export default class Clock extends React.Component {
     clearInterval(this.timer);
   }
 
+  getVal(val) {
+    if (val < 10) {
+      return `0${val}`;
+    }
+    return val;
+  }
+
   tick() {
     const crnt = new Date();
     this.setState({
-      hour: crnt.getHours(),
-      min: crnt.getMinutes(),
-      sec: crnt.getSeconds(),
+      hour: this.getVal(crnt.getHours()),
+      min: this.getVal(crnt.getMinutes()),
+      sec: this.getVal(crnt.getSeconds()),
     });
   }
 
