@@ -1,2 +1,2 @@
 #shim; 쉼
-simple chrome extension inspired by [momentum](https://momentumdash.com/)
+Simple Chrome Extensions to Transform your 'New Tab' Page
