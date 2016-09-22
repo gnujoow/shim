@@ -1,17 +1,22 @@
 import React from 'react';
 import FontIcon from 'material-ui/FontIcon';
-import {BottomNavigation, BottomNavigationItem} from 'material-ui/BottomNavigation';
+import { BottomNavigation, BottomNavigationItem } from 'material-ui/BottomNavigation';
 import Paper from 'material-ui/Paper';
-import IconLocationOn from 'material-ui/svg-icons/communication/location-on';
 
 const item = <FontIcon className="material-icons">item</FontIcon>;
 
 export default class BottomNav extends React.Component {
-  state = {
-    selectedIndex: 0,
-  };
+  constructor() {
+    super();
 
-  select = (index) => this.setState({selectedIndex: index});
+    this.state = {
+      selectedIndex: 0,
+    };
+  }
+
+  select(index) {
+    this.setState({ selectedIndex: index });
+  }
 
   render() {
     return (
