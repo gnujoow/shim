@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "iinspiire",
+  "name": "shim",
   "description": "random quote machine with random image",
   "author": "gnujoow",
   "homepage_url": "http://gnujoow.github.io",
