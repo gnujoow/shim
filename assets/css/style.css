@@ -7,11 +7,10 @@
 html,
 body {
   height: 100%;
-	color: white;
 }
 
 .container {
-	background-image: url("https://source.unsplash.com/category/food/");
+	background-image: url("https://source.unsplash.com/category/nature/");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -22,6 +21,7 @@ body {
 
 .appIndex{
 	min-height: calc(90vh - 70px);
+  color: white;
 }
 
 .footer {
