@@ -20,8 +20,18 @@ body {
 }
 
 .appIndex{
-	min-height: calc(90vh - 70px);
+	min-height: calc(70vh - 70px);
   color: white;
+}
+
+.box {
+  border-radius: 4px;
+  position: relative;
+  margin: 12% auto auto auto;
+  padding: 20px 20px 20px 20px;
+  width: 40vw;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .footer {
