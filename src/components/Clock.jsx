@@ -40,7 +40,7 @@ export default class Clock extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="clock">
         <h1>{this.state.hour}:{this.state.min}:{this.state.sec}</h1>
       </div>
     );

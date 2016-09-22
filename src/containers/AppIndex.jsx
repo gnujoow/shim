@@ -9,7 +9,6 @@ export default function AppIndex() {
       <div className="box">
         <Clock />
         <Quote />
-        <h1>weather</h1>
       </div>
     </div>
   );

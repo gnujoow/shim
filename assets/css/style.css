@@ -25,14 +25,21 @@ body {
 }
 
 .box {
-  border-radius: 4px;
   position: relative;
   margin: 12% auto auto auto;
-  padding: 20px 20px 20px 20px;
-  width: 40vw;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  width: 50vw;
 }
-
-.footer {
+.quote {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);;
+  padding: 20px 20px 20px 20px;
+}
+.quote > h2 {
+  text-align: right;
+}
+.clock {
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 3px 3px rgba(128, 0, 0, 0.25) !important;
 }
