@@ -4,7 +4,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import baseTheme from '../../assets/theme';
 import NavBar from '../components/NavBar';
-import BottomNav from '../components/BottomNav';
+// import BottomNav from '../components/BottomNav';
 import AppIndex from './AppIndex';
 
 export default class App extends React.Component {
@@ -17,7 +17,7 @@ export default class App extends React.Component {
       <div>
         <NavBar />
         <AppIndex />
-        <BottomNav />
+        {/* <BottomNav /> */}
       </div>
     );
   }

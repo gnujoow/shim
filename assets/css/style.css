@@ -7,6 +7,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 .container {
@@ -40,6 +41,6 @@ body {
 }
 .clock {
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
   text-shadow: 1px 3px 3px rgba(128, 0, 0, 0.25) !important;
 }
