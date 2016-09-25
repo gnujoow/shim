@@ -1,3 +1,7 @@
+/*
+* AppBar and BottomNav are not used until some features are made.
+* 09/26 @gnujoow
+*/
 import React from 'react';
 import FontIcon from 'material-ui/FontIcon';
 import { BottomNavigation, BottomNavigationItem } from 'material-ui/BottomNavigation';
