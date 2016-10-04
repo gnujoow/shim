@@ -22,7 +22,7 @@ export default class Clock extends React.Component {
     clearInterval(this.timer);
   }
 
-  getVal(val) {
+  getVal(val) { // eslint-disable-line class-methods-use-this
     if (val < 10) {
       return `0${val}`;
     }

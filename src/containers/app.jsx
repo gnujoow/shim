@@ -6,7 +6,7 @@ import baseTheme from '../../assets/theme';
 import AppIndex from './AppIndex';
 
 export default class App extends React.Component {
-  getChildContext() {
+  getChildContext() { // eslint-disable-line class-methods-use-this
     return { muiTheme: getMuiTheme(baseTheme) };
   }
 
