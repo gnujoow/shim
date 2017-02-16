@@ -1,3 +1,4 @@
 *.css
 *.png
 README.md
+webpack.config.js

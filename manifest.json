@@ -15,5 +15,5 @@
     "32": "assets/icons/icon32.png",
     "128": "assets/icons/icon128.png"
   },
-  "permissions": ["https://source.unsplash.com/", "http://api.forismatic.com/"]
+  "permissions": ["https://source.unsplash.com/"]
 }

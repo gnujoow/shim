@@ -7,7 +7,9 @@ import FontIcon from 'material-ui/FontIcon';
 import { BottomNavigation, BottomNavigationItem } from 'material-ui/BottomNavigation';
 import Paper from 'material-ui/Paper';
 
-const item = <FontIcon className="material-icons">item</FontIcon>;
+const home = <FontIcon className="material-icons">home</FontIcon>;
+const todo = <FontIcon className="material-icons">format_list_numbered</FontIcon>;
+const memo = <FontIcon className="material-icons">comment</FontIcon>;
 
 export default class BottomNav extends React.Component {
   constructor() {
@@ -27,15 +29,18 @@ export default class BottomNav extends React.Component {
       <Paper zDepth={1}>
         <BottomNavigation selectedIndex={this.state.selectedIndex}>
           <BottomNavigationItem
-            icon={item}
+            label="Home"
+            icon={home}
             onTouchTap={() => this.select(0)}
           />
           <BottomNavigationItem
-            icon={item}
+            label="Todo"
+            icon={todo}
             onTouchTap={() => this.select(1)}
           />
           <BottomNavigationItem
-            icon={item}
+            label="Memo"
+            icon={memo}
             onTouchTap={() => this.select(2)}
           />
         </BottomNavigation>

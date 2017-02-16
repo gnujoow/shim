@@ -5,14 +5,15 @@ export default class Quote extends React.Component {
     super();
 
     this.state = ({
-      text: 'No yesterdays are ever wasted for those who give themselves to today.',
-      author: 'Brendan Francis',
+      text: '야롤로롤리오로이롤오옹',
+      author: '김우정',
     });
   }
 
   render() {
     return (
       <div className="quote">
+        <input />
         <h1>{this.state.text}</h1>
         <h2>{this.state.author}</h2>
       </div>
